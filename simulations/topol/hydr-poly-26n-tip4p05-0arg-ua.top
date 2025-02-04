@@ -1,0 +1,19 @@
+; Topology File
+
+;Include forcefield parameters
+#include "all-atom-charmm22-polymer.ff/forcefield.itp"
+
+;Include water topology
+#include "all-atom-charmm22-polymer.ff/tip4p05.itp"
+
+;Include structure topology
+#include "hydr-poly-26n-tip4p05-0arg-ua.itp"
+
+[ system ]
+; Name
+26n Polymer in Vacuum (United Atom) in water
+
+[ molecules ]
+; Compound    #mols
+Other		1
+SOL             10599

@@ -1,0 +1,26 @@
+; Topology File
+; Note: Using CHARMM22 All-Atom Force Field in Combination with United-Atom Hydrophobic Polymer
+
+;Include forcefield parameters
+#include "all-atom-charmm22-polymer.ff/forcefield.itp"
+
+;Include water topology
+#include "all-atom-charmm22-polymer.ff/tip4p05.itp"
+
+;Include structure topology
+#include "hydr-poly-26n-tip4p05-0arg-ua.itp"
+#include "arg-charmm22.itp"
+
+;Include ions
+#include "./all-atom-charmm22-polymer.ff/ions.itp"
+
+[ system ]
+; Name
+26n Polymer (United Atom) in Water
+
+[ molecules ]
+; Compound    #mols
+Other		1
+SOL         8976
+CL               139
+Arginine	139

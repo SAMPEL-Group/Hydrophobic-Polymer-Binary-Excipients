@@ -1,0 +1,8 @@
+rg: READ FILE=temp_bias_AAAA.dat VALUES=rg IGNORE_TIME 
+lw: READ FILE=temp_bias_AAAA.dat VALUES=logweights
+
+hhrg: HISTOGRAM ARG=rg GRID_MIN=0.3 GRID_MAX=0.95 GRID_BIN=600 BANDWIDTH=0.005 LOGWEIGHTS=lw
+DUMPGRID GRID=hhrg FILE=temp_histo_AAAA.dat
+
+ffrg: CONVERT_TO_FES GRID=hhrg
+DUMPGRID GRID=ffrg FILE=temp_fes_rg_AAAA.dat 

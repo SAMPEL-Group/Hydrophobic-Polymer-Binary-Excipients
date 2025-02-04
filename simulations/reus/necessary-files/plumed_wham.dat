@@ -1,0 +1,8 @@
+rg: READ FILE=bias_wham.dat VALUES=rg IGNORE_TIME 
+lw: READ FILE=bias_wham.dat VALUES=logweights
+
+hhrg: HISTOGRAM ARG=rg GRID_MIN=0.3 GRID_MAX=0.9 GRID_BIN=600 BANDWIDTH=0.005 LOGWEIGHTS=lw
+DUMPGRID GRID=hhrg FILE=histo.dat
+
+ffrg: CONVERT_TO_FES GRID=hhrg
+DUMPGRID GRID=ffrg FILE=fes_rg.dat 

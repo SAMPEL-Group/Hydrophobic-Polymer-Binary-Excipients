@@ -1,0 +1,25 @@
+; Topology File
+
+;Include forcefield parameters
+#include "all-atom-charmm22-polymer.ff/forcefield.itp"
+
+;Include structure topology
+#include "gdm-charmm22.itp"
+#include "hydr-poly-26n-tip4p05-0arg-ua.itp"
+
+;Include TIP4P/2005 water model
+#include "./all-atom-charmm22-polymer.ff/tip4p05.itp"
+
+;Include ions
+#include "./all-atom-charmm22-polymer.ff/ions.itp"
+
+[ system ]
+; Name
+Guanidinium Ion
+
+[ molecules ]
+; Compound    #mols
+Other 		1
+SOL         	9702
+CL              185
+Guanidinium 	185 

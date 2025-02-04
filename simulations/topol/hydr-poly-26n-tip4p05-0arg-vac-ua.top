@@ -1,0 +1,15 @@
+; Topology File
+
+;Include forcefield parameters
+#include "united-atom.ff/forcefield.itp"
+
+;Include structure topology
+#include "hydr-poly-26n-tip4p05-0arg-ua.itp"
+
+[ system ]
+; Name
+26n Polymer in Vacuum
+
+[ molecules ]
+; Compound    #mols
+Other		1
