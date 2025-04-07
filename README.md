@@ -1,4 +1,4 @@
-# Synergy of Charged Amino Acids on Hydrophobic Polymer Collapse and Local Solvent Network Stabilization
+# Towards Stable Biologics: Understanding Co-Excipient Effects on Hydrophobic Interactions and Solvent Network Integrity
 Thank you for your interest in our project! This repository contains all necessary files and scripts to perform molecular simulations and subsequent analyses for our hydrophobic polymer / excipient systems. Below, you'll find an overview of the repository structure and how to get started.
 
 ## Citation
