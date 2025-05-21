@@ -2,7 +2,7 @@
 Thank you for your interest in our project! This repository contains all necessary files and scripts to perform molecular simulations and subsequent analyses for our hydrophobic polymer / excipient systems. Below, you'll find an overview of the repository structure and how to get started.
 
 ## Citation
-If you use this repository in your research, please cite the following preprint:
+If you use this repository in your research, please cite the following publications:
 
 > Jonathan W. P. Zajac, Praveen Muralikrishnan, Idris Tohidian, Xianci Zeng, Caryn L. Heldt, Sarah L. Perry, Sapna Sarupria. 16, 6780-6792, (2025) Chemical Science. DOI: 10.1039/d4sc08672d
 
