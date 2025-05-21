@@ -8,7 +8,7 @@ import time
 
 begin = time.monotonic()
 
-ionName = "CL"
+ionName = "CL NA"
 rThresh = 10 # What is the maximum rcut we will evaluate?
 dr = 0.5 # How coarse is the evaluation?
 
