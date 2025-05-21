@@ -4,7 +4,9 @@ Thank you for your interest in our project! This repository contains all necessa
 ## Citation
 If you use this repository in your research, please cite the following preprint:
 
-> J. W. P. Zajac, P. Muralikrishnan, C. L. Heldt, S. L. Perry, and S. Sarupria (2024) Impact of Co-Excipient Selection on Hydrophobic Polymer Folding: Insights for Optimal Formulation Design. arXiv:2407.00885 [cond-mat.soft]
+> Jonathan W. P. Zajac, Praveen Muralikrishnan, Idris Tohidian, Xianci Zeng, Caryn L. Heldt, Sarah L. Perry, Sapna Sarupria. 16, 6780-6792, (2025) Chemical Science. DOI: 10.1039/d4sc08672d
+
+> Jonathan W. P. Zajac, Praveen Muralikrishnan, Caryn L. Heldt, Sarah L. Perry, Sapna Sarupria. Advance Article, (2025) Molecular Systems Design & Engineering. DOI: 10.1039/D4ME00201F
 
 ## Repository Structure
 
